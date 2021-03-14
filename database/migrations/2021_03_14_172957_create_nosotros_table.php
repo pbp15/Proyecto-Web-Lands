@@ -19,6 +19,8 @@ class CreateNosotrosTable extends Migration
             $table->longText('vision');
             $table->longText('mision');
             $table->longText('servicios');
+            $table->string('img_vision');
+            $table->string('img_mision');
             $table->timestamps();
         });
     }
